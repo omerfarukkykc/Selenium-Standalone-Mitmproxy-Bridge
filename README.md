@@ -1,6 +1,4 @@
-# Create README.md file
-
-content = """# 🚀 Proxy Bridge with Selenium & mitmproxy
+# 🚀 Proxy Bridge with Selenium & mitmproxy
 
 ## 📌 Overview
 This project implements a **custom HTTP proxy bridge** using `mitmproxy` and `Selenium`.  
@@ -29,6 +27,16 @@ It also includes special handlers for:
 ## 🏗️ Architecture
 
 Client → mitmproxy → ProxyBridge → Selenium → Response
+
+---
+
+## 📸 Screenshot
+
+Example of accessing local files via the proxy:
+
+![Local File Access Screenshot](./image.png)
+
+> Shows directory listing of `C:\` accessed through `http://localfile/`
 
 ---
 
